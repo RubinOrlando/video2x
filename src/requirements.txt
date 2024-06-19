@@ -8,3 +8,4 @@ python-magic; platform_system != "Windows"
 pyyaml
 requests
 tqdm
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
